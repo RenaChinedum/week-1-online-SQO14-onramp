@@ -6,6 +6,10 @@ body {
   background-color: rgb(215, 245, 245);
   padding: 2rem 1.5rem;
 }
+.container .hero-section .hero-section-inner .hero-section-innerheader p {
+  font-size: 2.5rem;
+  text-align: center;
+}
 .container .hero-section .hero-section-inner .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -74,15 +78,19 @@ body {
   color: rgb(171, 171, 171);
 }
 .container .main {
-  align-items: center;
+  display: flex;
 }
-.container .main .price {
+.container .main .main-inner {
+  margin: 3rem auto;
+  border: 1px solid red;
+}
+.container .main .main-inner .price {
   justify-content: center;
 }
-.container .main .price .bold-font {
+.container .main .main-inner .price .bold-font {
   font-size: 2rem;
 }
-.container .main .price .price-card {
+.container .main .main-inner .price .price-card {
   background-color: #fff;
   height: -webkit-fit-content;
   height: -moz-fit-content;

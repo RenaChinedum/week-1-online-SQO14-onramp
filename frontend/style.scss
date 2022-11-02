@@ -9,6 +9,12 @@ body {
 
 
         .hero-section-inner {
+            .hero-section-innerheader{
+                p{
+                    font-size:2.5rem;
+                    text-align: center;
+                }
+            }
 
 
             .cards {
@@ -105,22 +111,30 @@ body {
     }
 
     .main {
-        align-items: center;
-
-        .price {
-            justify-content: center;
-
-            .bold-font {
-                font-size: 2rem;
-            }
-
-            .price-card {
-                background-color: #fff;
-                height: fit-content;
-                padding: 1rem;
-                border-radius: 10px;
-
+        display: flex;
+        
+        .main-inner{
+            margin: 3rem auto;
+            border: 1px solid red;
+            .price {
+                justify-content: center;
+    
+                .bold-font {
+                    font-size: 2rem;
+                }
+    
+                .price-card {
+                    background-color: #fff;
+                    height: fit-content;
+                    padding: 1rem;
+                    border-radius: 10px;
+    
+                }
             }
         }
+    
+
+        
+ 
     }
 }
