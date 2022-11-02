@@ -1,4 +1,92 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .container .hero-section {
   background-color: rgb(215, 245, 245);
-  height: 300px;
+  padding: 2rem 1.5rem;
+}
+.container .hero-section .hero-section-inner .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.container .hero-section .hero-section-inner .cards .client {
+  background-color: #fff;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.container .hero-section .hero-section-inner .cards .client .client-id {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .hero-section .hero-section-inner .cards .client .client-id .card-head-left {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.container .hero-section .hero-section-inner .cards .client .client-id .card-head-left .image {
+  width: 4rem;
+  height: 4rem;
+}
+.container .hero-section .hero-section-inner .cards .client .client-id .card-head-left .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.container .hero-section .hero-section-inner .cards .client .client-id .card-head-left .card-name .bold {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.container .hero-section .hero-section-inner .cards .client .client-id .card-head-left .card-name .light {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(171, 171, 171);
+  margin-top: -1.8rem;
+}
+.container .hero-section .hero-section-inner .cards .client .client-id .social-media {
+  color: #09ACEE;
+  font-size: 2rem;
+}
+.container .hero-section .hero-section-inner .cards .client .client-comment p {
+  color: rgb(171, 171, 171);
+}
+.container .hero-section .hero-section-inner .cards .client .comment-reaction {
+  display: flex;
+  justify-content: space-between;
+}
+.container .hero-section .hero-section-inner .cards .client .comment-reaction .card-footer-left {
+  display: flex;
+  gap: 1rem;
+}
+.container .hero-section .hero-section-inner .cards .client .comment-reaction .card-footer-left i {
+  color: red;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.container .hero-section .hero-section-inner .cards .client .comment-reaction .card-footer-left p {
+  margin-top: -0.1rem;
+  font-size: 1.5rem;
+  color: rgb(171, 171, 171);
+}
+.container .main {
+  align-items: center;
+}
+.container .main .price {
+  justify-content: center;
+}
+.container .main .price .bold-font {
+  font-size: 2rem;
+}
+.container .main .price .price-card {
+  background-color: #fff;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
